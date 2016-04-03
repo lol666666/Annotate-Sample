@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.button1:
-                Toast.makeText(MainActivity.this, "reger", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "button1", Toast.LENGTH_SHORT).show();
                 break;
         }
     }
